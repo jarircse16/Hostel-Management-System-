@@ -1,0 +1,62 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.sidenav {
+    height: 100%;
+    width: 20%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+  
+.sidenav a {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.main {
+    margin-left: 20%;
+}
+.nav-open-btn {
+    display: none;
+}
+.sidenav a:hover{
+    color: #f1f1f1;
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    display: none;
+}
+
+@media screen and (max-width: 900px) {
+    .sidenav {
+        width: 0%;
+    }
+    .nav-open-btn {
+        display: block;
+    }
+    .sidenav .closebtn {
+        display: block;
+    }
+}
+
+table {
+    padding: 0px;
+}
+td {
+    padding:10px;
+    
+}
